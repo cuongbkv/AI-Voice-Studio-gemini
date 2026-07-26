@@ -1,0 +1,754 @@
+{
+  "voices": [
+    {
+      "id": "Zephyr",
+      "name": "Zephyr",
+      "gender": "Female",
+      "style": "Bright",
+      "category": [
+        "Narrator",
+        "Professional",
+        "Documentary"
+      ],
+      "description": "Giọng nữ tươi sáng, rõ ràng, phù hợp thuyết minh và giới thiệu sản phẩm.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách bright, giọng tươi sáng.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Cao",
+      "recommended_speed": "1.0x",
+      "recommended_emotion": "Tươi sáng",
+      "tags": [
+        "bright",
+        "clear",
+        "female"
+      ],
+      "example_usage": "Giới thiệu sản phẩm công nghệ, video mở đầu kênh."
+    },
+    {
+      "id": "Puck",
+      "name": "Puck",
+      "gender": "Male",
+      "style": "Upbeat",
+      "category": [
+        "TikTok",
+        "Commercial",
+        "Funny"
+      ],
+      "description": "Giọng nam vui tươi, năng lượng cao, cực hợp nội dung TikTok ngắn.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách upbeat, giọng vui vẻ.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "1.1x",
+      "recommended_emotion": "Vui vẻ",
+      "tags": [
+        "upbeat",
+        "energetic",
+        "male"
+      ],
+      "example_usage": "Video TikTok hài hước, quảng cáo ngắn."
+    },
+    {
+      "id": "Charon",
+      "name": "Charon",
+      "gender": "Male",
+      "style": "Informative",
+      "category": [
+        "Narrator",
+        "Documentary",
+        "Education"
+      ],
+      "description": "Voice sâu, rõ, phù hợp thuyết minh tài liệu và video giáo dục.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách informative, giọng điềm tĩnh.",
+      "rating": 5,
+      "favorite": false,
+      "recommended_pitch": "Trầm",
+      "recommended_speed": "0.95x",
+      "recommended_emotion": "Điềm tĩnh",
+      "tags": [
+        "deep",
+        "informative",
+        "documentary"
+      ],
+      "example_usage": "Phim tài liệu thiên nhiên, video giáo dục lịch sử."
+    },
+    {
+      "id": "Kore",
+      "name": "Kore",
+      "gender": "Female",
+      "style": "Firm",
+      "category": [
+        "Professional",
+        "News",
+        "Narrator"
+      ],
+      "description": "Giọng nữ chắc chắn, dứt khoát, phù hợp đọc tin tức và nội dung trang trọng.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách firm, giọng nghiêm túc.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "1.0x",
+      "recommended_emotion": "Nghiêm túc",
+      "tags": [
+        "firm",
+        "news",
+        "female"
+      ],
+      "example_usage": "Bản tin thời sự, thông báo chính thức."
+    },
+    {
+      "id": "Fenrir",
+      "name": "Fenrir",
+      "gender": "Male",
+      "style": "Excitable",
+      "category": [
+        "Gaming",
+        "TikTok",
+        "Motivational"
+      ],
+      "description": "Giọng nam sôi nổi, dễ kích động cảm xúc, hợp nội dung gaming và hô hào.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách excitable, giọng hào hứng.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Cao",
+      "recommended_speed": "1.2x",
+      "recommended_emotion": "Hào hứng",
+      "tags": [
+        "excitable",
+        "gaming",
+        "male"
+      ],
+      "example_usage": "Video gaming highlight, nội dung kêu gọi hành động."
+    },
+    {
+      "id": "Leda",
+      "name": "Leda",
+      "gender": "Female",
+      "style": "Youthful",
+      "category": [
+        "TikTok",
+        "Story",
+        "Children"
+      ],
+      "description": "Giọng nữ trẻ trung, tươi mới, phù hợp kể chuyện cho giới trẻ và thiếu nhi.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách youthful, giọng trẻ trung.",
+      "rating": 5,
+      "favorite": false,
+      "recommended_pitch": "Cao",
+      "recommended_speed": "1.05x",
+      "recommended_emotion": "Trẻ trung",
+      "tags": [
+        "youthful",
+        "story",
+        "female"
+      ],
+      "example_usage": "Kể chuyện thiếu nhi, nội dung dành cho Gen Z."
+    },
+    {
+      "id": "Orus",
+      "name": "Orus",
+      "gender": "Male",
+      "style": "Firm",
+      "category": [
+        "Professional",
+        "News",
+        "Narrator"
+      ],
+      "description": "Giọng nam chắc chắn, uy tín, phù hợp thuyết minh chuyên nghiệp.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách firm, giọng nghiêm túc.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Trầm",
+      "recommended_speed": "1.0x",
+      "recommended_emotion": "Nghiêm túc",
+      "tags": [
+        "firm",
+        "professional",
+        "male"
+      ],
+      "example_usage": "Video doanh nghiệp, thuyết trình công ty."
+    },
+    {
+      "id": "Aoede",
+      "name": "Aoede",
+      "gender": "Female",
+      "style": "Breezy",
+      "category": [
+        "Podcast",
+        "Story",
+        "Warm"
+      ],
+      "description": "Giọng nữ nhẹ nhàng, thoải mái, hợp podcast trò chuyện.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách breezy, giọng thư giãn.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "1.0x",
+      "recommended_emotion": "Thư giãn",
+      "tags": [
+        "breezy",
+        "podcast",
+        "female"
+      ],
+      "example_usage": "Podcast tâm sự, chia sẻ đời sống."
+    },
+    {
+      "id": "Callirrhoe",
+      "name": "Callirrhoe",
+      "gender": "Female",
+      "style": "Easy-going",
+      "category": [
+        "Podcast",
+        "Friendly",
+        "Story"
+      ],
+      "description": "Giọng nữ dễ chịu, tự nhiên như đang trò chuyện với bạn bè.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách easy-going, giọng thân thiện.",
+      "rating": 5,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "1.0x",
+      "recommended_emotion": "Thân thiện",
+      "tags": [
+        "easy-going",
+        "friendly",
+        "female"
+      ],
+      "example_usage": "Podcast bạn bè, review sản phẩm thân mật."
+    },
+    {
+      "id": "Autonoe",
+      "name": "Autonoe",
+      "gender": "Female",
+      "style": "Bright",
+      "category": [
+        "Commercial",
+        "TikTok",
+        "Professional"
+      ],
+      "description": "Giọng nữ sáng, cuốn hút, phù hợp quảng cáo và nội dung mạng xã hội.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách bright, giọng tươi sáng.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Cao",
+      "recommended_speed": "1.05x",
+      "recommended_emotion": "Tươi sáng",
+      "tags": [
+        "bright",
+        "commercial",
+        "female"
+      ],
+      "example_usage": "Quảng cáo mỹ phẩm, video giới thiệu thương hiệu."
+    },
+    {
+      "id": "Enceladus",
+      "name": "Enceladus",
+      "gender": "Male",
+      "style": "Breathy",
+      "category": [
+        "ASMR",
+        "Calm",
+        "Story"
+      ],
+      "description": "Giọng nam nhẹ, hơi thở rõ, rất hợp ASMR và nội dung thư giãn.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách breathy, giọng nhẹ nhàng.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Trầm",
+      "recommended_speed": "0.85x",
+      "recommended_emotion": "Nhẹ nhàng",
+      "tags": [
+        "breathy",
+        "asmr",
+        "male"
+      ],
+      "example_usage": "Video ASMR, nội dung thiền định."
+    },
+    {
+      "id": "Iapetus",
+      "name": "Iapetus",
+      "gender": "Male",
+      "style": "Clear",
+      "category": [
+        "Narrator",
+        "Education",
+        "News"
+      ],
+      "description": "Giọng nam rõ ràng, mạch lạc, dễ nghe cho nội dung giáo dục.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách clear, giọng rõ ràng.",
+      "rating": 5,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "1.0x",
+      "recommended_emotion": "Rõ ràng",
+      "tags": [
+        "clear",
+        "education",
+        "male"
+      ],
+      "example_usage": "Bài giảng online, video hướng dẫn học tập."
+    },
+    {
+      "id": "Umbriel",
+      "name": "Umbriel",
+      "gender": "Male",
+      "style": "Easy-going",
+      "category": [
+        "Podcast",
+        "Story",
+        "Calm"
+      ],
+      "description": "Giọng nam thoải mái, dễ nghe lâu, hợp podcast và audiobook.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách easy-going, giọng thư giãn.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "0.95x",
+      "recommended_emotion": "Thư giãn",
+      "tags": [
+        "easy-going",
+        "podcast",
+        "male"
+      ],
+      "example_usage": "Audiobook tiểu thuyết, podcast chuyện phiếm."
+    },
+    {
+      "id": "Algieba",
+      "name": "Algieba",
+      "gender": "Male",
+      "style": "Smooth",
+      "category": [
+        "Narrator",
+        "Audiobook",
+        "Warm"
+      ],
+      "description": "Giọng nam mượt mà, ấm áp, rất hợp đọc audiobook dài.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách smooth, giọng ấm áp.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Trầm",
+      "recommended_speed": "0.9x",
+      "recommended_emotion": "Ấm áp",
+      "tags": [
+        "smooth",
+        "audiobook",
+        "male"
+      ],
+      "example_usage": "Audiobook tiểu thuyết trinh thám, truyện dài kỳ."
+    },
+    {
+      "id": "Despina",
+      "name": "Despina",
+      "gender": "Female",
+      "style": "Smooth",
+      "category": [
+        "Narrator",
+        "Audiobook",
+        "Warm"
+      ],
+      "description": "Giọng nữ mượt, êm tai, phù hợp audiobook và truyện đêm khuya.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách smooth, giọng ấm áp.",
+      "rating": 5,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "0.9x",
+      "recommended_emotion": "Ấm áp",
+      "tags": [
+        "smooth",
+        "audiobook",
+        "female"
+      ],
+      "example_usage": "Audiobook lãng mạn, truyện ngủ ngon."
+    },
+    {
+      "id": "Erinome",
+      "name": "Erinome",
+      "gender": "Female",
+      "style": "Clear",
+      "category": [
+        "Professional",
+        "News",
+        "Education"
+      ],
+      "description": "Giọng nữ rõ ràng, chuyên nghiệp, hợp tin tức và thuyết trình.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách clear, giọng rõ ràng.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "1.0x",
+      "recommended_emotion": "Rõ ràng",
+      "tags": [
+        "clear",
+        "professional",
+        "female"
+      ],
+      "example_usage": "Bản tin buổi sáng, video đào tạo nội bộ."
+    },
+    {
+      "id": "Algenib",
+      "name": "Algenib",
+      "gender": "Male",
+      "style": "Gravelly",
+      "category": [
+        "Documentary",
+        "Scary",
+        "Old"
+      ],
+      "description": "Giọng nam khàn, gai góc, tạo cảm giác bí ẩn cho truyện kinh dị.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách gravelly, giọng bí ẩn.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Rất trầm",
+      "recommended_speed": "0.85x",
+      "recommended_emotion": "Bí ẩn",
+      "tags": [
+        "gravelly",
+        "scary",
+        "male"
+      ],
+      "example_usage": "Truyện ma, phim tài liệu tội phạm."
+    },
+    {
+      "id": "Rasalgethi",
+      "name": "Rasalgethi",
+      "gender": "Male",
+      "style": "Informative",
+      "category": [
+        "Documentary",
+        "Education",
+        "News"
+      ],
+      "description": "Giọng nam truyền tải thông tin tốt, phù hợp video kiến thức.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách informative, giọng điềm tĩnh.",
+      "rating": 5,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "1.0x",
+      "recommended_emotion": "Điềm tĩnh",
+      "tags": [
+        "informative",
+        "documentary",
+        "male"
+      ],
+      "example_usage": "Video giải thích khoa học, tin tức chuyên sâu."
+    },
+    {
+      "id": "Laomedeia",
+      "name": "Laomedeia",
+      "gender": "Female",
+      "style": "Upbeat",
+      "category": [
+        "TikTok",
+        "Commercial",
+        "Motivational"
+      ],
+      "description": "Giọng nữ sôi nổi, tích cực, hợp nội dung truyền cảm hứng.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách upbeat, giọng tích cực.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Cao",
+      "recommended_speed": "1.1x",
+      "recommended_emotion": "Tích cực",
+      "tags": [
+        "upbeat",
+        "motivational",
+        "female"
+      ],
+      "example_usage": "Video truyền động lực, quảng cáo năng động."
+    },
+    {
+      "id": "Achernar",
+      "name": "Achernar",
+      "gender": "Female",
+      "style": "Soft",
+      "category": [
+        "ASMR",
+        "Calm",
+        "Children"
+      ],
+      "description": "Giọng nữ mềm mại, dịu dàng, phù hợp nội dung nhẹ nhàng cho trẻ em.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách soft, giọng dịu dàng.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Cao",
+      "recommended_speed": "0.9x",
+      "recommended_emotion": "Dịu dàng",
+      "tags": [
+        "soft",
+        "calm",
+        "female"
+      ],
+      "example_usage": "Truyện cổ tích cho bé, video ru ngủ."
+    },
+    {
+      "id": "Alnilam",
+      "name": "Alnilam",
+      "gender": "Male",
+      "style": "Firm",
+      "category": [
+        "Professional",
+        "News",
+        "Narrator"
+      ],
+      "description": "Giọng nam chắc, uy quyền, hợp video công ty và tin tức.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách firm, giọng nghiêm túc.",
+      "rating": 5,
+      "favorite": false,
+      "recommended_pitch": "Trầm",
+      "recommended_speed": "1.0x",
+      "recommended_emotion": "Nghiêm túc",
+      "tags": [
+        "firm",
+        "professional",
+        "male"
+      ],
+      "example_usage": "Video giới thiệu doanh nghiệp, thông cáo báo chí."
+    },
+    {
+      "id": "Schedar",
+      "name": "Schedar",
+      "gender": "Male",
+      "style": "Even",
+      "category": [
+        "Narrator",
+        "Documentary",
+        "Professional"
+      ],
+      "description": "Giọng nam đều đặn, ổn định, dễ nghe trong thời gian dài.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách even, giọng điềm tĩnh.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "1.0x",
+      "recommended_emotion": "Điềm tĩnh",
+      "tags": [
+        "even",
+        "steady",
+        "male"
+      ],
+      "example_usage": "Video thuyết minh dài, tài liệu chuyên đề."
+    },
+    {
+      "id": "Gacrux",
+      "name": "Gacrux",
+      "gender": "Male",
+      "style": "Mature",
+      "category": [
+        "Documentary",
+        "Old",
+        "Professional"
+      ],
+      "description": "Giọng nam trưởng thành, từng trải, hợp nội dung mang tính chiêm nghiệm.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách mature, giọng chững chạc.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Trầm",
+      "recommended_speed": "0.9x",
+      "recommended_emotion": "Chững chạc",
+      "tags": [
+        "mature",
+        "deep",
+        "male"
+      ],
+      "example_usage": "Phim tài liệu lịch sử, video hồi ký."
+    },
+    {
+      "id": "Pulcherrima",
+      "name": "Pulcherrima",
+      "gender": "Female",
+      "style": "Forward",
+      "category": [
+        "Commercial",
+        "TikTok",
+        "Review"
+      ],
+      "description": "Giọng nữ mạnh mẽ, cuốn hút ngay từ giây đầu, hợp quảng cáo.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách forward, giọng tự tin.",
+      "rating": 5,
+      "favorite": false,
+      "recommended_pitch": "Cao",
+      "recommended_speed": "1.1x",
+      "recommended_emotion": "Tự tin",
+      "tags": [
+        "forward",
+        "bold",
+        "female"
+      ],
+      "example_usage": "Quảng cáo sản phẩm, video review nổi bật."
+    },
+    {
+      "id": "Achird",
+      "name": "Achird",
+      "gender": "Male",
+      "style": "Friendly",
+      "category": [
+        "Podcast",
+        "Review",
+        "Friendly"
+      ],
+      "description": "Giọng nam thân thiện, gần gũi, hợp review sản phẩm và trò chuyện.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách friendly, giọng thân thiện.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "1.0x",
+      "recommended_emotion": "Thân thiện",
+      "tags": [
+        "friendly",
+        "review",
+        "male"
+      ],
+      "example_usage": "Video review công nghệ, podcast trò chuyện."
+    },
+    {
+      "id": "Zubenelgenubi",
+      "name": "Zubenelgenubi",
+      "gender": "Male",
+      "style": "Casual",
+      "category": [
+        "Podcast",
+        "TikTok",
+        "Friendly"
+      ],
+      "description": "Giọng nam đời thường, tự nhiên như nói chuyện phiếm.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách casual, giọng tự nhiên.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "1.0x",
+      "recommended_emotion": "Tự nhiên",
+      "tags": [
+        "casual",
+        "natural",
+        "male"
+      ],
+      "example_usage": "Video vlog hàng ngày, nội dung đời thường."
+    },
+    {
+      "id": "Vindemiatrix",
+      "name": "Vindemiatrix",
+      "gender": "Female",
+      "style": "Gentle",
+      "category": [
+        "Calm",
+        "Story",
+        "Audiobook"
+      ],
+      "description": "Giọng nữ nhẹ nhàng, êm dịu, hợp truyện kể và nội dung thư giãn.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách gentle, giọng nhẹ nhàng.",
+      "rating": 5,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "0.9x",
+      "recommended_emotion": "Nhẹ nhàng",
+      "tags": [
+        "gentle",
+        "calm",
+        "female"
+      ],
+      "example_usage": "Truyện ngủ, video thiền và yoga."
+    },
+    {
+      "id": "Sadachbia",
+      "name": "Sadachbia",
+      "gender": "Female",
+      "style": "Lively",
+      "category": [
+        "TikTok",
+        "Gaming",
+        "Funny"
+      ],
+      "description": "Giọng nữ sinh động, nhí nhảnh, rất hợp nội dung TikTok trẻ trung.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách lively, giọng sôi nổi.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Cao",
+      "recommended_speed": "1.15x",
+      "recommended_emotion": "Sôi nổi",
+      "tags": [
+        "lively",
+        "tiktok",
+        "female"
+      ],
+      "example_usage": "TikTok trend, video gaming vui nhộn."
+    },
+    {
+      "id": "Sadaltager",
+      "name": "Sadaltager",
+      "gender": "Male",
+      "style": "Knowledgeable",
+      "category": [
+        "Education",
+        "Documentary",
+        "News"
+      ],
+      "description": "Giọng nam am hiểu, đáng tin cậy, hợp nội dung kiến thức chuyên sâu.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách knowledgeable, giọng điềm tĩnh.",
+      "rating": 4,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "1.0x",
+      "recommended_emotion": "Điềm tĩnh",
+      "tags": [
+        "knowledgeable",
+        "education",
+        "male"
+      ],
+      "example_usage": "Video giải thích chuyên môn, bài giảng đại học."
+    },
+    {
+      "id": "Sulafat",
+      "name": "Sulafat",
+      "gender": "Female",
+      "style": "Warm",
+      "category": [
+        "Warm",
+        "Story",
+        "Audiobook"
+      ],
+      "description": "Giọng nữ ấm áp, dễ chịu, phù hợp kể chuyện và audiobook tình cảm.",
+      "language": "vi",
+      "recommended_prompt": "Đọc với phong cách warm, giọng ấm áp.",
+      "rating": 5,
+      "favorite": false,
+      "recommended_pitch": "Trung bình",
+      "recommended_speed": "0.95x",
+      "recommended_emotion": "Ấm áp",
+      "tags": [
+        "warm",
+        "story",
+        "female"
+      ],
+      "example_usage": "Audiobook tình cảm, video chia sẻ cảm xúc"
+    }
+  ]
+}
