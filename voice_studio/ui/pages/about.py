@@ -33,7 +33,8 @@ class AboutPage(ctk.CTkFrame):
             "trong tương lai có thể bổ sung OpenAI TTS, ElevenLabs hoặc Azure "
             "Speech mà không cần sửa đổi giao diện người dùng.\n\n"
             "Công nghệ sử dụng: Python, CustomTkinter, requests, threading, "
-            "ffmpeg, pygame."
+            "ffmpeg, pygame.\n\n"
+            "Nếu bạn không biết sử dụng hãy liên hệ mình tele @cuongbkv"
         )
         ctk.CTkLabel(
             self, text=info, wraplength=700, justify="left"
